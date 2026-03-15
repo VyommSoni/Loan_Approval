@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Conda environments
+*.conda
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# ML artifacts
+artifacts/
+models/
+outputs/
+
+# Dataset files
+data/
+datasets/
+*.csv
+*.xlsx
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.temp
