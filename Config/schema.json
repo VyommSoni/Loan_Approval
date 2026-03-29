@@ -1,0 +1,20 @@
+{
+  "LengthOfDateStampInFile": 0,
+  "LengthOfTimeStampInFile": 0,
+
+  "ColName": {
+    "Gender": "object",
+    "Married": "object",
+    "Dependents": "object",
+    "Education": "object",
+    "Self_Employed": "object",
+    "Loan": "float",
+    "Repay(in years)": "float",
+    "Credit_History": "float",
+    "Property_Area": "object",
+    "Total_Income": "float",
+    "Pass": "int"
+  },
+
+  "NumberofColumns": 11
+}

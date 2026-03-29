@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Phishing detection</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+{% include 'partials/header.html' %}
+
+<div class="main">
+
+    <form action="/train" method="post" enctype="multipart/form-data">
+
+        <h1 class="title">Upload CSV for the training</h1>
+
+        <div class="center">
+
+            <div class="file-upload">
+
+                <h2>Drop file to upload</h2>
+
+                <div class="dropzone">
+
+                    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/upload-2647295-2200155.png"
+                         class="upload-icon" />
+
+                    <input type="file"
+                           class="upload-input"
+                           name="file"
+                           accept=".csv"/>
+
+                </div>
+
+            </div>
+
+            <button type="submit"
+                    class="btn"
+                    name="uploadbutton">
+                Upload file
+            </button>
+
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
